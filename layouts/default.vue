@@ -25,7 +25,7 @@
     <div class="drawer bg-white">
       <input id="drawer-sidebar" type="checkbox" class="drawer-toggle" />
       <div class="drawer-content p-6">
-        <slot></slot>
+        <slot />
       </div>
 
       <div class="drawer lg:drawer-open">
