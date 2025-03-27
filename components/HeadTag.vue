@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center gap-3 pb-4 text-sm font-bold">
+  <div class="flex items-center gap-3  text-sm font-bold">
     <a href="#">
       <svg class="size-3" fill="currentColor" width="12" height="12" viewBox="0 0 256 256" id="Flat" xmlns="http://www.w3.org/2000/svg">
         <path
