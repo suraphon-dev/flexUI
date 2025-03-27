@@ -20,7 +20,7 @@
 useHead({ title: 'FlexUI' })
 const toggleMenu = ref(true)
 const menu = ref([
-  { name: 'Example 1', url: '/table' },
+  { name: 'Table', url: '/table' },
   { name: 'ShowCase', url: '/showcase' },
 ])
 </script>
