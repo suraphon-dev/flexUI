@@ -19,7 +19,7 @@
           </summary>
 
           <ul>
-            <li v-for="(item, index) in menu" :key="index">
+            <li v-for="(item, index) in menu" :key="index" @click="directTo(item.url)">
               <div>{{ item.name }}</div>
             </li>
           </ul>
@@ -34,4 +34,10 @@ defineProps({
   isOpen: Boolean,
   menu: Array,
 })
+
+const router = useRouter()
+
+const directTo = (url) => {
+  router.push(url)
+}
 </script>

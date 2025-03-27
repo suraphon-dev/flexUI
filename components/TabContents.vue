@@ -11,13 +11,20 @@
       Preview
     </label>
     <div class="tab-content bg-base-100 border-base-300 p-6">
-      <div class="text-center">
-        <div class="mockup-phone shadow-xl">
-          <div class="mockup-phone-camera"></div>
-          <div class="mockup-phone-display" style="max-height: 700px; height: 700px">
-            <img alt="wallpaper" :src="preview" />
+      <!-- mode mockup phone -->
+      <div v-if="typeMode === 'mockup-phone'">
+        <div class="text-center">
+          <div class="mockup-phone shadow-xl">
+            <div class="mockup-phone-display" style="max-height: 700px; height: 700px">
+              <img alt="wallpaper-preview" :src="preview" />
+            </div>
           </div>
         </div>
+      </div>
+
+      <!-- mode showcase -->
+      <div v-else class="text-center" style="max-height: 300px; height: 300px">
+        <img :src="preview" width="100%" height="500" alt="image-preview" />
       </div>
     </div>
 
@@ -29,14 +36,31 @@
       Json
     </label>
     <div class="tab-content bg-base-100 border-base-300 p-6">
-      <div class="text-right pb-2">
-        <button class="btn btn-ghost btn-sm" :class="{ 'text-green-600': copySuccess }" @click="handleCopy">
-          {{ copySuccess ? 'Copied' : 'Copy' }}
-        </button>
+      <!-- mode mockup phone -->
+      <div v-if="typeMode === 'mockup-phone'">
+        <div>
+          <div class="text-right pb-2">
+            <button class="btn btn-ghost btn-sm" :class="{ 'text-green-600': copySuccess }" @click="handleCopy">
+              {{ copySuccess ? 'Copied' : 'Copy' }}
+            </button>
+          </div>
+          <div class="overflow-auto bg-slate-50 rounded p-6" style="max-height: 735px">
+            <pre>{{ json }}</pre>
+          </div>
+        </div>
       </div>
 
-      <div class="overflow-auto bg-slate-50 rounded p-6" style="max-height: 735px">
-        <pre>{{ json }}</pre>
+      <!-- mode showcase -->
+      <div v-else style="height: 300px">
+        <div class="text-right pb-2">
+          <button class="btn btn-ghost btn-sm" :class="{ 'text-green-600': copySuccess }" @click="handleCopy">
+            {{ copySuccess ? 'Copied' : 'Copy' }}
+          </button>
+        </div>
+
+        <div class="overflow-auto bg-slate-50 rounded p-6" style="max-height: 270px">
+          <pre>{{ json }}</pre>
+        </div>
       </div>
     </div>
   </div>
@@ -47,6 +71,7 @@ const props = defineProps({
   parentName: String,
   preview: String,
   json: Object,
+  typeMode: String,
 })
 
 const copySuccess = ref(false)

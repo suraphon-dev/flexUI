@@ -19,5 +19,8 @@
 <script setup>
 useHead({ title: 'FlexUI' })
 const toggleMenu = ref(true)
-const menu = ref([{ name: 'Example 1' }, { name: 'Example 2' }])
+const menu = ref([
+  { name: 'Example 1', url: '/table' },
+  { name: 'ShowCase', url: '/showcase' },
+])
 </script>

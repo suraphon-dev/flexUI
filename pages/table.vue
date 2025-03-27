@@ -1,14 +1,10 @@
 <template>
-  <div>
-    <HeadTag title="Tag A" />
-    <TabContents parentName="tag1" preview="https://img.daisyui.com/images/stock/453966.webp" :json="json1" />
-  </div>
-  <div>
-    <HeadTag title="Tag A" />
-    <TabContents parentName="tag2" preview="https://img.daisyui.com/images/stock/453966.webp" :json="json1" />
+  <div v-for="(item, index) in dataFlex" :key="index">
+    <HeadTag :title="item.name" />
+    <TabContents typeMode="mockup-phone" :parentName="`${item.name}_${index}`" :preview="item.preview" :json="item.json" />
   </div>
 </template>
 
 <script setup>
-import json1 from '~/resources/json/restaurant.json'
+import dataFlex from '~/resources/data/index'
 </script>
