@@ -1,0 +1,470 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "hello, world",
+                "contents": [
+                  {
+                    "type": "span",
+                    "text": "Brown Store",
+                    "color": "#ffffff",
+                    "size": "md"
+                  },
+                  {
+                    "type": "span",
+                    "text": " ",
+                    "size": "lg"
+                  }
+                ]
+              }
+            ],
+            "paddingAll": "10px"
+          }
+        ],
+        "backgroundColor": "#063697",
+        "height": "55px",
+        "justifyContent": "center"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "separator",
+            "margin": "none"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "contents": [
+                      {
+                        "type": "span",
+                        "text": "Name",
+                        "size": "sm",
+                        "color": "#373737",
+                        "weight": "bold"
+                      },
+                      {
+                        "type": "span",
+                        "text": " ",
+                        "size": "md"
+                      }
+                    ]
+                  }
+                ],
+                "width": "45%"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "contents": [
+                      {
+                        "type": "span",
+                        "text": "Amount",
+                        "size": "sm",
+                        "color": "#373737",
+                        "weight": "bold"
+                      },
+                      {
+                        "type": "span",
+                        "text": " ",
+                        "size": "md"
+                      }
+                    ]
+                  }
+                ],
+                "width": "30%",
+                "alignItems": "center"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "contents": [
+                      {
+                        "type": "span",
+                        "text": "Price",
+                        "size": "sm",
+                        "color": "#373737",
+                        "weight": "bold"
+                      },
+                      {
+                        "type": "span",
+                        "text": " ",
+                        "size": "md"
+                      }
+                    ]
+                  }
+                ],
+                "width": "25%",
+                "alignItems": "flex-end"
+              }
+            ],
+            "width": "100%",
+            "paddingStart": "10px",
+            "paddingEnd": "10px",
+            "paddingAll": "5px"
+          },
+          {
+            "type": "separator",
+            "margin": "none"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                      {
+                        "type": "text",
+                        "contents": [
+                          {
+                            "type": "span",
+                            "text": "1.Energy Drink",
+                            "size": "xs",
+                            "color": "#373737",
+                            "weight": "regular"
+                          },
+                          {
+                            "type": "span",
+                            "text": " ",
+                            "size": "sm"
+                          }
+                        ]
+                      }
+                    ],
+                    "width": "45%"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                      {
+                        "type": "text",
+                        "contents": [
+                          {
+                            "type": "span",
+                            "text": "2",
+                            "size": "xs",
+                            "color": "#373737",
+                            "weight": "regular"
+                          },
+                          {
+                            "type": "span",
+                            "text": " ",
+                            "size": "sm"
+                          }
+                        ]
+                      }
+                    ],
+                    "width": "30%",
+                    "alignItems": "center"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                      {
+                        "type": "text",
+                        "contents": [
+                          {
+                            "type": "span",
+                            "text": "$5",
+                            "size": "xs",
+                            "color": "#373737",
+                            "weight": "regular"
+                          },
+                          {
+                            "type": "span",
+                            "text": " ",
+                            "size": "sm"
+                          }
+                        ],
+                        "wrap": true
+                      }
+                    ],
+                    "width": "25%",
+                    "alignItems": "flex-end"
+                  }
+                ],
+                "width": "100%",
+                "paddingStart": "10px",
+                "paddingEnd": "10px",
+                "paddingAll": "5px"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                      {
+                        "type": "text",
+                        "contents": [
+                          {
+                            "type": "span",
+                            "text": "2.Chewing Gum",
+                            "size": "xs",
+                            "color": "#373737",
+                            "weight": "regular"
+                          },
+                          {
+                            "type": "span",
+                            "text": " ",
+                            "size": "sm"
+                          }
+                        ]
+                      }
+                    ],
+                    "width": "45%"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                      {
+                        "type": "text",
+                        "contents": [
+                          {
+                            "type": "span",
+                            "text": "1",
+                            "size": "xs",
+                            "color": "#373737",
+                            "weight": "regular"
+                          },
+                          {
+                            "type": "span",
+                            "text": " ",
+                            "size": "sm"
+                          }
+                        ]
+                      }
+                    ],
+                    "width": "30%",
+                    "alignItems": "center"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                      {
+                        "type": "text",
+                        "contents": [
+                          {
+                            "type": "span",
+                            "text": "$3",
+                            "size": "xs",
+                            "color": "#373737",
+                            "weight": "regular"
+                          },
+                          {
+                            "type": "span",
+                            "text": " ",
+                            "size": "sm"
+                          }
+                        ],
+                        "wrap": true
+                      }
+                    ],
+                    "width": "25%",
+                    "alignItems": "flex-end"
+                  }
+                ],
+                "width": "100%",
+                "paddingStart": "10px",
+                "paddingEnd": "10px",
+                "paddingAll": "5px"
+              }
+            ],
+            "backgroundColor": "#F5F5F5"
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "none"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "Total",
+                "size": "sm",
+                "weight": "bold",
+                "color": "#5D5D5D"
+              },
+              {
+                "type": "text",
+                "text": "$10",
+                "align": "end",
+                "size": "sm",
+                "weight": "bold",
+                "color": "#373737"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "Cash",
+                "size": "sm",
+                "weight": "bold",
+                "color": "#5D5D5D"
+              },
+              {
+                "type": "text",
+                "text": "$5",
+                "align": "end",
+                "size": "sm",
+                "weight": "bold",
+                "color": "#373737"
+              }
+            ]
+          }
+        ],
+        "paddingAll": "10px",
+        "spacing": "sm"
+      },
+      {
+        "type": "separator",
+        "margin": "none"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "Button",
+                "align": "center",
+                "color": "#2E3192",
+                "size": "sm"
+              }
+            ],
+            "cornerRadius": "8px",
+            "height": "45px",
+            "justifyContent": "center",
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "http://linecorp.com/"
+            },
+            "borderColor": "#2E3192",
+            "borderWidth": "1px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "Button",
+                "align": "center",
+                "color": "#2E3192",
+                "size": "sm"
+              }
+            ],
+            "backgroundColor": "#DEE8FF",
+            "cornerRadius": "8px",
+            "height": "45px",
+            "justifyContent": "center",
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "http://linecorp.com/"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "Button",
+                "align": "center",
+                "color": "#FFFFFF",
+                "size": "sm"
+              }
+            ],
+            "backgroundColor": "#2E3192",
+            "cornerRadius": "8px",
+            "height": "45px",
+            "justifyContent": "center",
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "http://linecorp.com/"
+            }
+          }
+        ],
+        "justifyContent": "center",
+        "alignItems": "center",
+        "spacing": "md",
+        "paddingAll": "10px"
+      }
+    ],
+    "paddingAll": "0px"
+  },
+  "styles": {
+    "footer": {
+      "separator": true
+    }
+  }
+}
