@@ -17,7 +17,11 @@
           </svg>
         </label>
       </div>
-      <span class="text-xl font-bold">FlexUI</span>
+      <span class="text-xl font-bold cursor-pointer" @click="router.push('/')">FlexUI</span>
     </div>
   </div>
 </template>
+
+<script setup>
+const router = useRouter()
+</script>
