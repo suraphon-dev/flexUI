@@ -1,0 +1,137 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "hello, world",
+                "contents": [
+                  {
+                    "type": "span",
+                    "text": "Brown Cafe",
+                    "size": "xl",
+                    "color": "#FFFFFF",
+                    "weight": "bold"
+                  },
+                  {
+                    "type": "span",
+                    "text": " ",
+                    "size": "xxl"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "paddingAll": "10px"
+      }
+    ],
+    "position": "relative",
+    "backgroundColor": "#063697",
+    "justifyContent": "center"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "separator",
+        "margin": "none"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "contents": [
+                  {
+                    "type": "span",
+                    "text": "Flex Tower, 7-7-4 Midori-ku, Tokyo",
+                    "color": "#6D6D6D",
+                    "size": "sm"
+                  },
+                  {
+                    "type": "span",
+                    "text": " ",
+                    "size": "md"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "contents": [
+                  {
+                    "type": "span",
+                    "text": "https://g.co/kgs/FZMnw",
+                    "size": "sm",
+                    "color": "#346FCF",
+                    "decoration": "underline"
+                  },
+                  {
+                    "type": "span",
+                    "text": " ",
+                    "size": "md"
+                  }
+                ],
+                "wrap": true,
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "http://linecorp.com/"
+                }
+              }
+            ],
+            "backgroundColor": "#F5F6FA",
+            "paddingAll": "10px",
+            "cornerRadius": "8px",
+            "spacing": "xs"
+          }
+        ],
+        "paddingAll": "10px"
+      },
+      {
+        "type": "separator",
+        "margin": "none"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "Button",
+              "uri": "http://linecorp.com/"
+            },
+            "style": "primary",
+            "color": "#063697",
+            "height": "md"
+          }
+        ],
+        "paddingAll": "10px"
+      }
+    ],
+    "paddingAll": "0px"
+  },
+  "styles": {
+    "footer": {
+      "separator": true
+    }
+  }
+}
